@@ -1,0 +1,17 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ba118d72-2fdf-438f-987f-79e0b8446ed5" name="EC2-DEV" url="http://dev.serveradmin.design-inc.io/">
+        <fileTransfer host="52.198.80.165" port="22" rootFolder="/home/serveradmin/public_html/dev.serveradmin.design-inc.io" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="54423d5d-8151-43be-ba34-2025def28d8e" name="localhost" url="http://127.0.0.1:8000/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

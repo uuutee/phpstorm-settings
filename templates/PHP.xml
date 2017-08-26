@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="var_dump" value="echo '&lt;pre&gt;';&#10;var_dump($value$);&#10;echo '&lt;/pre&gt;';&#10;exit;" description="var_dump + pre + exit" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
