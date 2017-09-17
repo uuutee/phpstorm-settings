@@ -44,11 +44,9 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="EditorIndentLineOrSelection">
-    <keyboard-shortcut first-keystroke="meta back_slash" />
-  </action>
-  <action id="EditorIndentSelection">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
+  <action id="EditorIndentSelection" />
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
