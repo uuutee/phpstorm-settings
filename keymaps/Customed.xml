@@ -120,6 +120,9 @@
   </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta alt 2" />
+  </action>
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -144,6 +147,9 @@
   <action id="Uml.ShowDiff" />
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="meta alt 0" />
   </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
