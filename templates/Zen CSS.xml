@@ -6,4 +6,11 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="posbl" value="position: absolute;&#10;bottom: $VAR0$;&#10;left: $VAR1$;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="0" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="0" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
