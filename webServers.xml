@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c01a80f8-e8cc-4583-8c98-d27c2f8db992" name="test.bisoshop.jp" url="https://test.bisoshop.jp">
+        <fileTransfer host="157.7.184.37" port="22" rootFolder="/virtual/toretoko/public_html/test.bisoshop.jp" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
