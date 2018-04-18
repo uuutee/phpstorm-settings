@@ -9,6 +9,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="40239cd8-1709-4a1b-9d75-f200ffc53474" name="dev-kanko-f.com" url="http://www.dev-kanko-f.com">
+        <fileTransfer host="13.115.35.252" port="22" rootFolder="/home/awswebuser/public_html/dev-kanko-f.com" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
