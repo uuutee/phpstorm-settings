@@ -19,4 +19,26 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="ta-lst" value="text-align-last: $END$;" description="text-align-last:...;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="tal:a" value="text-align-last:auto;" description="text-align-last:auto;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="tal:l" value="text-align-last:left;" description="text-align-last:left;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="tal:c" value="text-align-last:center;" description="text-align-last:center;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="tal:r" value="text-align-last:right;" description="text-align-last:right;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="postr" value="position: absolute;&#10;top: $VAR0$;&#10;right: $VAR1$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="0" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="0" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
