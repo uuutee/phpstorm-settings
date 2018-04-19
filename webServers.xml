@@ -17,6 +17,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="fb17c8bf-8ceb-4f51-a508-bbc40b4e50d1" name="test2.bisoshop.jp" url="https://test2.bisoshop.jp">
+        <fileTransfer host="157.7.184.37" port="22" rootFolder="/virtual/toretoko/public_html/test2.bisoshop.jp" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
